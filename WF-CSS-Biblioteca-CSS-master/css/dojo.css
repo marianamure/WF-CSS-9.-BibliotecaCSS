@@ -1,0 +1,73 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    width: 150px;
+    height: 30px;
+    border: 3px solid black;
+    background-color:rgb(49, 100, 252);
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+.search {
+    width: 130px;
+    height: 30px;
+    border: 2px solid rgb(7, 150, 150);
+    background-color: rgb(236, 234, 234);
+    color: rgb(7, 150, 150);
+    border-radius: 60px;
+}
+
+.pluss {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color:lightseagreen;
+    color: white;
+    border-radius: 100px;
+    font-size: medium;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+}
+
+.col, .col-2, .col-3 {
+    background-color:aquamarine;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex:3;
+}
+
+.navbar {
+    background-color: rgb(88, 88, 88);
+    height: 50px;
+    width: 950px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px 5px 5px;
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
